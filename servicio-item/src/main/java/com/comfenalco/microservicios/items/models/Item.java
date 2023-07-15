@@ -1,5 +1,7 @@
 package com.comfenalco.microservicios.items.models;
 
+import com.comfenalco.microservicios.commons.producto.models.entities.Producto;
+
 public class Item {
 
     private Producto producto;

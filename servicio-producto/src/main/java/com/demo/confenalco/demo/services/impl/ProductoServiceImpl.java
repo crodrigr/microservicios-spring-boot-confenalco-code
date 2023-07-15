@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.comfenalco.microservicios.commons.producto.models.entities.Producto;
 import com.demo.confenalco.demo.repositories.RepositoryProducto;
-import com.demo.confenalco.demo.repositories.entities.Producto;
 import com.demo.confenalco.demo.services.ProductoService;
 
 

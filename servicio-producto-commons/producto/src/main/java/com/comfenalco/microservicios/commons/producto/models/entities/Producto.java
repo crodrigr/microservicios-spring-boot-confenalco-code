@@ -1,4 +1,5 @@
-package com.demo.confenalco.demo.repositories.entities;
+package com.comfenalco.microservicios.commons.producto.models.entities;
+
 
 import java.io.Serializable;
 
@@ -69,6 +70,7 @@ public class Producto implements Serializable{
     private static final long serialVersionUID = 1L;
     
 }
+
 
 
 

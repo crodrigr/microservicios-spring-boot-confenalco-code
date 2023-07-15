@@ -11,9 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-
+import com.comfenalco.microservicios.commons.producto.models.entities.Producto;
 import com.comfenalco.microservicios.items.models.Item;
-import com.comfenalco.microservicios.items.models.Producto;
 import com.comfenalco.microservicios.items.services.ItemService;
 
 @Service("serviceRestTemplate")

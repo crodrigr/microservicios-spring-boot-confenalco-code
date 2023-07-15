@@ -2,7 +2,9 @@ package com.demo.confenalco.demo.services;
 
 import java.util.List;
 
-import com.demo.confenalco.demo.repositories.entities.Producto;
+import com.comfenalco.microservicios.commons.producto.models.entities.Producto;
+
+
 
 public interface ProductoService {
 

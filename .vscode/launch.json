@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GetwayApplication<getway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.comfenalco.microservicios.getway.GetwayApplication",
+            "projectName": "getway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -14,6 +14,6 @@ public interface ProductoService {
 
     public Producto save(Producto producto);
 
-    public void Delete(Producto producto);
+    public void delete(Long id);
    
 }

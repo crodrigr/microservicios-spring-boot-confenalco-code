@@ -40,5 +40,23 @@ public class ItemServiceImpl implements ItemService {
        return new Item(producto,cantidad);
 
     }
+
+    @Override
+    public void delete(Long id) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public Producto save(Producto producto) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Producto update(Producto producto, Long id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
     
 }

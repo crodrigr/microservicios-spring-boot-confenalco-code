@@ -40,6 +40,26 @@
             "projectName": "eureka",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OauthApplication<com.comfenalco.microservicios-oauth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.comfenalco.microservicios.oauth.OauthApplication",
+            "projectName": "com.comfenalco.microservicios-oauth",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulApplication<com.comfenalco.microservicios-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.comfenalco.microservicios.zuul.ZuulApplication",
+            "projectName": "com.comfenalco.microservicios-zuul",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
